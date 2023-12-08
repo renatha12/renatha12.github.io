@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fasilitas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <style>
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .announcement-box {
+      background-color: rgb(200, 192, 192);
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 50%; /* Lebar box teks */
+    
+    }
+    .announcement-box h2 {
+      color: black;
+      margin-top: 0;
+    }
+    .announcement-box p {
+      color: black;
+    }
+    .flex{
+        display: flex;
+    }
+    .logo-image {
+    width: 120px; 
+    height: 120px; 
+  }
+  #map-container {
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+      height: 400px;
+      width: 400px;
+      }
+.pic-2 {
+  position: absolute;
+  width: 73px;
+  height: 81px;
+  top: 1px;
+  left: 0;
+  background: url(./assets/images/e9f2e5a5c92ee0a16fd61159541ed279ad9f9c1b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+}
+.img {
+  position: absolute;
+  width: 322px;
+  height: 51px;
+  top: 3px;
+  left: 1019px;
+  background: url(./assets/images/a4aa13d1-7907-4847-b94e-b7d60154da8f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 27;
+}
+.text-2 {
+  position: absolute;
+  height: 35px;
+  top: 26px;
+  left: 496px;
+  font-family: Inter;
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 35.097px;
+  text-align: left;
+  z-index: 1;
+}
+.text-0{
+  color: black;
+}
+.text-3 {
+  position: absolute;
+  height: 24px;
+  top: 29px;
+  left: 114px;
+  font-family: Inter;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: left;
+  z-index: 2;
+}
+.text-4 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 350px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.text-5 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 600px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.text-6 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 930px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.text-7 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 1200px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.box {
+  position: relative;
+  width: 1440px;
+  height: 590px;
+  margin: 0 0 0 0;
+  z-index: 12;
+}
+.wrapper-2 {
+  position: absolute;
+  width: 105%;
+  height: 51px;
+  left: 0;
+  margin-top: -1.5rem;
+  background: rgb(94, 0, 109);
+  z-index: 6;
+}
+.group-2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 1px;
+  left: 410px;
+  z-index: 4;
+  overflow: hidden;
+}
+.text-3 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 188px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 11;
+}
+.active{
+  background-color: rgba(94, 0, 109, 0.774);
+  color: yellow ;
+}
+.kartu{
+    border-radius: 0.5rem;
+    display: flex;
+    border: 1px solid rgb(225, 225, 225);
+    background-color: white;
+    box-shadow: 1px 5px 5px 2px rgba(0, 0, 0, 0.3); 
+    margin-bottom: 8rem;
+    height: 27rem;
+    align-content: center;
+}
+.kartuKiri{
+    width: 35%;
+    padding: 0.5rem;
+    display: flex;
+    align-content: center;
+}
+.kartuKanan{
+    width: 60%;
+    padding-inline: 0.5rem;
+}
+.gambarKartu{
+    width: 100%;
+    background-size: cover;
+}
+.judulKartu{
+    text-decoration: underline;
+}
+.teksKartu{
+    text-align: justify;
+}
+body{
+    background-color: #F3F3F3;
+}
+
+  </style>
+</head>
+<body>
+    <div class="background-image">
+        <div class="top-bar" style=" background-color: grey; padding: 0.4rem; min-width: 102A%;">
+          <div class="logo" style="display: flex; align-items: center;">
+            <img src="gambar 2.png" alt="DEL Logo" class="logo-image">
+            <span class="text-0">MarTuhan,Marroha,Marbisuk</span>
+          </div>
+  <span class="text"></span>
+  <center\><span class="text-2">INSTITUT TEKNOLOGI DEL</span></center>
+</div>
+<div class="img-2"></div>
+<div class="box">
+  <div class="wrapper-2">
+  <span class="text-3" style="margin-right: 10px;"><a href="PAP kelompok.html">Home</a></span>
+  <span class="text-4" style="margin-right: 10px;"><a href="pengumuman.html">Pengumuman</a></span>
+  <span class="text-5" style="margin-right: 10px;"><a href="programpendidikan.html">Program Pendidikan</a></span>
+  <span class="text-6" style="margin-right: 10px;"><a href="lembaga.html">Lembaga</a></span>
+  <span class="text-7 active" style="margin-right: 10px;">Fasilitas</span>
+
+  </div>
+  </div>
+  </div>
+
+
+  <section style="margin-top: -34rem;">
+    <div class="kartu">
+        <div class="kartuKiri">
+            <img src="gambar10.jpg" alt="" class="gambarKartu">
+        </div>
+        <div class="kartuKanan">
+            <h3 class="judulKartu">Laboratorium </h3>
+            <div class="teksKartu">Definisi Laboratorium Komputasi adalah ruangan yang dilabeli sebagai laboratorium komputasi yang berisi sekumpulan perangkat yang terdiri atas Komputer Desktop, Laptop, AC, projector, printer, dan perangkat lain sesuai dengan kebutuhan dari laboratorium yang dimaksud.</p>
+
+                <p>Fasilitas laboratorium komputasi dimaksudkan sebagai sarana kerja, pendidikan, penelitian maupun pengabdian pada masyarakat. Kepada para pengguna diharapkan pengertian dan kesadarannya untuk menjaga keutuhan dan keamanan peralatan yang ada, serta berperan dalam menciptakan suasana akademik yang lebih berhasil guna. Kesadaran ini hendaknya diterapkan terhadap semua peralatan sarana dan prasarana yang dimiliki oleh Institut Teknologi Del dan semua sistem komputasi lain yang dapat diakses melalui jaringan komunikasi yang tersedia.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="kartu">
+        <div class="kartuKiri">
+            <img src="gambar 11.jpg" alt="" class="gambarKartu">
+        </div>
+        <div class="kartuKanan">
+            <h3 class="judulKartu">Kantin</h3>
+            <div class="teksKartu">Kantin Institut Teknologi Del menyediakan menu makanan yang bergizi dan sehat untuk semua mahasiswa/i. Menu yang disediakan selalu memenuhi standard gizi, sehingga mahasiswa bisa melaksanakan aktifitas perkuliahan dengan sehat dan prima. Setiap mahasiswa diwajibkan untuk makan di kantin tiga kali setiap harinya.</div>
+        </div>
+    </div>
+
+    <div class="kartu">
+        <div class="kartuKiri">
+            <img src="gambar 12.jpg" alt="" class="gambarKartu">
+        </div>
+        <div class="kartuKanan">
+            <h3 class="judulKartu">Perpustakaan</h3>
+            <div class="teksKartu">Perpustakaan Politeknik Informatika Del (PI Del) berdiri sejak tanggal 9 Januari 2002 dengan sistem pelayanan  open acces (terbuka). Selanjutnya berubah nama seiring dengan berubahnya status Politeknik menjadi Institut sejak tahun 2013. Perpustakaan berganti nama menjadi Perpustakaan Institut Teknologi Del. Perpustakaan Institut Teknologi Del memiliki fungsi utama yaitu fungsi pendidikan. Pengadaan koleksi dan pengembangan minat baca internal dan eksternal Institut Teknologi Del dilakukan sebagai bagian dari kegiatan diseminasi kegiatan peningkatan  minat baca.
+                <p>Perpustakaan IT Del memiliki visi yaitu “Sebagai pusat informasi terkemuka yang menyediakan layanan informasi cetak maupun cetak dan juga penyedia layanan informasi berteknologi tinggi. Untuk mencapai visi dimaksud, misi yang diemban oleh Perpustakaan IT Del adalah sebagai berikut:
+                    </p>
+                <p>1. Menyediakan layanan pustaka yang mendukung program-program akademik dan non akademik.</p>
+                <p>2. Memberikan layanan informasi cetak maupun non cetak bagi seluruh civitas akademika PI Del maupun kepada masyarakat umum.</p>
+                <p>3. Meningkatkan cara dan proses diseminasi koleksi lebih efisien dan efektif.</p>
+                <p>4. Meningkatkan keragaman koleksi demi peningkatan mutu layanan</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="kartu">
+        <div class="kartuKiri">
+                <img src="gambar 13.jpg" alt="" class="gambarKartu">
+        </div>
+        <div class="kartuKanan">
+            <h3 class="judulKartu">Hiburan dan Olahraga</h3>
+            <div class="teksKartu">Selain fasilitas untuk keperluan proses belajar mengajar, IT Del juga menyediakan sarana hiburan dan olahraga bagi warga kampus IT Del. Sarana ini dimaksudkan sebagai media untuk menghilangkan kejenuhan dari kegiatan sehari-hari di IT Del.</div>
+            <p> Kampus IT Del memiliki fasilitas untuk olahraga sebagai berikut:</p>
+            <p>1. Bola Basket</p>
+            <p>2. Futsal</p>
+            <P>3. Volly</P>
+            <p>4. Badminton</p>
+            <p>5. Tennis Meja</p>
+            <p>6. Jogging</p>
+            </div>
+        </div>
+        </section>
+
+  </section>
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span>Jelajahi Kami lebih di Sosial Media Kami :</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+
+         
+          <div style="display: flex;">
+            <!-- Content -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.3673457470372!2d99.14605787457523!3d2.3832151975961144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e00fdad2d7341%3A0xf59ef99c591fe451!2sDel%20Institute%20of%20Technology!5e0!3m2!1sen!2sid!4v1701830034160!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map-container"></iframe>
+
+            <div>
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Contact Us 
+              </h6>
+              <p>
+                Institut Teknologi Del 
+              </p>
+              <p>Jl. Sisimangaraja, Sitoluama</p>
+              <p>Laguboti, Toba Samosir</p>
+              <p>
+                Sumatera Utara, Indonesia
+              </p>
+              <p>Kode Pos : 22381</p>
+              <p>Telp : +62 632 3312234</p>
+              <p>Email : info@del.ac.id</p>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: purple">
+      © 2021 Copyright
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  </body>
+  </html>
+

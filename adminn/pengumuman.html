@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+    
+        <title>Institut Teknologi Del</title>
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+            rel="stylesheet">
+        <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    </head>
+    
+    </style>
+    <body id="page-top">
+        <div id="wrapper">
+            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                    <div class="gambar_logo">
+                        <img src="img/logo.png" style="height: 45px;" >
+                    </div>
+                    <div class="sidebar-brand-text mx-3">Institut Teknologi Del</div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Dashboard</span></a>
+                </li>
+                <hr class="sidebar-divider">
+              
+                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                        data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Custom Utilities:</h6>
+                            <a class="collapse-item" href="utilities-color.html">Colors</a>
+                            <a class="collapse-item" href="utilities-border.html">Borders</a>
+                            <a class="collapse-item" href="utilities-animation.html">Animations</a>
+                            <a class="collapse-item" href="utilities-other.html">Other</a>
+                        </div>
+                    </div>
+                </li>
+                <hr class="sidebar-divider">
+                <div class="sidebar-heading">
+                    Menu
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="charts.html">
+                        <i class="fas fa-fw fa-comments"></i>
+                        <span>Pengumuman</span></a>
+                </li>
+                    
+                            <div class="collapse-divider"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="charts.html">
+                        <i class="fas fa-fw fa-graduation-cap"></i>
+                        <span>Program Pendidikan</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tables.html">
+                        <i class="fas fa-fw fa-clipboard-list"></i>
+                        <span>Fasilitas</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tables.html">
+                        <i class="fas fa-fw fa-building"></i>
+                        <span>Lembaga</span></a>
+                </li>
+                <hr class="sidebar-divider d-none d-md-block">
+            </ul>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kelola Pengumuman</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Kelola Pengumuman</h1>
+        <form id="announcement-form">
+            <label for="Judul">Judul:</label>
+            <input type="text" id="title" required>
+            
+
+            <label for="date">Tanggal:</label>
+            <input type="date" id="date" required>
+
+            <label for="content">Konten:</label>
+            <textarea id="content" required style="height:25px;"></textarea>
+            <button type="button" onclick="createAnnouncement()">Tambah +</button>
+            
+        </form>
+
+        <div id="announcement-list">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

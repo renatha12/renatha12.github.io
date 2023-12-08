@@ -1,0 +1,167 @@
+.background-image {
+  background-image: url('gambar\ 1.jpeg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  box-sizing: border-box;
+}
+
+ .logo-image {
+    width: 150px; 
+    height: 100px; 
+  }
+ .hamburger-menu {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2; 
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .logo-image {
+    width: 50px; 
+    height: auto;
+  }
+  
+  .title {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2; 
+  }
+  
+  .logo {
+    margin-right: 10px;
+    .menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex; 
+    }
+    
+    .menu ul li {
+      margin-right: 20px; 
+    }
+    
+    .menu ul li:last-child {
+      margin-right: 0; 
+    }
+    
+    .menu ul li a {
+      text-decoration: none;
+      color: #333; 
+      padding: 8px 16px; 
+    }
+
+  .logo-image {
+    width: 50px; 
+    height: auto;
+  }
+  
+  .title {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+  }
+
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: #ffffff7a;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styling Content */
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold; /* Membuat tulisan menjadi tebal */
+}

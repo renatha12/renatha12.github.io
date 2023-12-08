@@ -1,0 +1,264 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1409px;
+  margin: 0 auto;
+}
+.group {
+  position: absolute;
+  width: 1440px;
+  height: 1409px;
+  top: 0;
+  left: 0;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  overflow: hidden;
+}
+.logo-image {
+    width: 120px; 
+    height: 120px; 
+  }
+.pic-2 {
+  position: absolute;
+  width: 73px;
+  height: 81px;
+  top: 1px;
+  left: 0;
+  background: url(./assets/images/e9f2e5a5c92ee0a16fd61159541ed279ad9f9c1b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+}
+.img {
+  position: absolute;
+  width: 322px;
+  height: 51px;
+  top: 3px;
+  left: 1019px;
+  background: url(./assets/images/a4aa13d1-7907-4847-b94e-b7d60154da8f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 27;
+}
+.text {
+  position: absolute;
+  height: 35px;
+  top: 9px;
+  left: 1039px;
+  font-family: Inter;
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+  font-weight: 100;
+  line-height: 35.097px;
+  text-align: left;
+  z-index: 35;
+}
+.text-0{
+  color: black;
+}
+.text-2 {
+  position: absolute;
+  height: 35px;
+  top: 26px;
+  left: 496px;
+  font-family: Inter;
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 35.097px;
+  text-align: left;
+  z-index: 1;
+}
+.text-3 {
+  position: absolute;
+  height: 24px;
+  top: 29px;
+  left: 114px;
+  font-family: Inter;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: left;
+  z-index: 2;
+}
+.img-2 {
+  position: relative;
+  width: 1440px;
+  height: 2px;
+  margin: 20px 0 0 0;
+  background: url(./assets/images/68cad6d0-25a0-4ddb-9538-98be2401606f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+.box {
+  position: relative;
+  width: 1440px;
+  height: 590px;
+  margin: 0 0 0 0;
+  z-index: 12;
+}
+.wrapper-2 {
+  position: absolute;
+  width: 105%;
+  height: 51px;
+  left: 0;
+  margin-top: -1.5rem;
+  background: rgb(94, 0, 109);
+  z-index: 6;
+}
+#map-container {
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+height: 400px;
+width: 400px;
+}
+.group-2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 1px;
+  left: 410px;
+  z-index: 4;
+  overflow: hidden;
+}
+.text-3 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 188px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 11;
+}
+.text-4 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 350px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.text-5 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 600px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.text-6 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 930px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.text-7 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 1200px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.img-3 {
+  position: absolute;
+  width: 1417px;
+  height: 526px;
+  top: 64px;
+  left: 12px;
+  background: url(./assets/images/f182de3f1fb85bf12247c64a0f234f31b44d9300.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+}
+.text-8 {
+  position: absolute;
+  width: 1317px;
+  height: 174px;
+  top: 371px;
+  left: 26px;
+  font-family: Inter;
+}
+/* Style untuk search container */
+.search-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Style untuk input search */
+.search-input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+.search-button {
+  padding: 8px 15px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .search-container {
+    top: 10px;
+    right: 10px;
+  }
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(63, 63, 63, 0.5); /* Ubah nilai alpha untuk transparansi */
+}
+
+
+

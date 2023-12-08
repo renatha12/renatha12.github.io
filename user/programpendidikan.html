@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Pendidikan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+    .logo-image {
+    width: 120px; 
+    height: 120px; 
+  }
+.pic-2 {
+  position: absolute;
+  width: 73px;
+  height: 81px;
+  top: 1px;
+  left: 0;
+  background: url(./assets/images/e9f2e5a5c92ee0a16fd61159541ed279ad9f9c1b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+}
+.img {
+  position: absolute;
+  width: 322px;
+  height: 51px;
+  top: 3px;
+  left: 1019px;
+  background: url(./assets/images/a4aa13d1-7907-4847-b94e-b7d60154da8f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 27;
+}
+.img {
+  width: 30px;
+  height: 50px;
+}
+.text-2 {
+  position: absolute;
+  height: 35px;
+  top: 26px;
+  left: 496px;
+  font-family: Inter;
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 35.097px;
+  text-align: left;
+  z-index: 1;
+}
+.text-0{
+  color: black;
+}
+.text-3 {
+  position: absolute;
+  height: 24px;
+  top: 29px;
+  left: 114px;
+  font-family: Inter;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: left;
+  z-index: 2;
+}
+.text-4 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 350px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.text-5 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 600px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.text-6 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 930px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.text-7 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 1200px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 8;
+}
+.box {
+  position: relative;
+  width: 1440px;
+  height: 590px;
+  margin: 0 0 0 0;
+  z-index: 12;
+}
+.wrapper-2 {
+  position: absolute;
+  width: 105%;
+  height: 51px;
+  left: 0;
+  margin-top: -1.5rem;
+  background: rgb(94, 0, 109);
+  z-index: 6;
+}
+.group-2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 1px;
+  left: 410px;
+  z-index: 4;
+  overflow: hidden;
+}
+.text-3 {
+  position: absolute;
+  height: 29px;
+  top: 11px;
+  left: 188px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 11;
+}
+.announcement-box{
+  margin-top: -36rem;
+}
+.paragraf{
+  margin-top: -1rem; 
+  text-align: justify;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+#map-container {
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+      height: 400px;
+      width: 400px;
+      }
+.active{
+  background-color: rgba(94, 0, 109, 0.774);
+  color: yellow ;
+}
+
+</style>
+</head>
+<body>
+    
+</body>
+<div class="background-image">
+    <div class="top-bar" style=" background-color: grey; padding: 0.4rem;">
+      <div class="logo" style="display: flex; align-items: center;margin-bottom: 15px;">
+        <img src="gambar 2.png" alt="DEL Logo" class="logo-image">
+        <span class="text-0">MarTuhan,Marroha,Marbisuk</span>
+      </div>
+<span class="text"></span>
+<center\><span class="text-2">INSTITUT TEKNOLOGI DEL</span></center>
+</div>
+<div class="img-2"></div>    
+<div class="box">
+<div class="wrapper-2">
+<span class="text-3" style="margin-right: 10px;"><a href="PAP kelompok.html">Home</a></span>
+<span class="text-4" style="margin-right: 10px;"><a href="pengumuman.html">Pengumuman</a></span>
+<span class="text-5" style="margin-right: 10px;"><a href="programpendidikan.html" class="active"> Program Pendidikan</a></span>
+<span class="text-6" style="margin-right: 10px;"><a href="lembaga.html">Lembaga</a></span>
+<span class="text-7" style="margin-right: 10px;">Fasilitas</span>
+
+</div></div></div>
+<br>
+<section style="display: flex;">
+    <div class="announcement-box">
+        <u>    <h2>Program Studi Institut Teknologi Del</h2>  </u> 
+          <h4>APA ITU PROGRAM STUDI?</h4>
+        <div style="display: flex;">
+          <div>
+            <p class="paragraf">Program studi adalah kesatuan rencana belajar sebagai pedoman penyelenggaraan pendidikan akademik dan/atau profesional yang diselenggarakan atas dasar suatu kurikulum serta ditujukan agar mahasiswa dapat menguasai pengetahuan, keterampilan, dan sikap sesuai dengan sasaran kurikulum.
+
+              Kurikulum pendidikan tinggi adalah seperangkat rencana dan pengaturan mengenai isi maupun bahan kajian dan pelajaran serta cara penyampaian dan penilaiannya yang digunakan sebagai pedoman penyelenggaraan kegiatan belajar – mengajar di perguruan tinggi.
+            </p>
+            <h4>FAKULTAS</h4>
+            <p class="paragraf">
+              Fakultas di Institut Teknologi Del ada 4 yaitu : 
+            </p>
+            <p>
+              <b>Fakultas Informatika dan Teknik Elektro (FITE)</b>
+            </p>
+            <p style="text-align: justify;">
+              Fakultas Teknik Informatika dan Elektro (FITE) IT Del berdiri pada tahun 2013 seiring dengan perubahan Politeknik Informatika Del (PI Del) menjadi IT Del.</p>
+
+<p>Visi dan Misi FITE:</p>
+
+<p class="paragraf">Visi:</p>
+<p class="paragraf">Menjadi Fakultas Pembelajar yang unggul di bidang Informatika dan Teknik  Elektro pada
+tahun 2018 di tingkat nasional.</p>
+
+<p>Misi:</p>
+<p class="paragraf"><p>1. Menyelenggarakan dan mengembangkan proses pendidikan di bidang
+Informatika dan Teknik Elektro yang unggul, berkesinambungan, dan bermanfaat bagi
+masyarakat.</p>
+<p>2. Mengembangkan, menciptakan, dan menyebarkan ilmu pengetahuan dan teknologi
+secara khusus di bidang Informatika dan Teknik Elektro.</p>
+<p>3. Meningkatkan peranan Fakultas agar mampu menjadi pembaru kemampuan,
+keterampilan pilihan rujukan, dan pengembangan rekayasa karya masyarakat,
+khususnya dalam bidang Informatika dan Teknik Elektro.</p>
+<p>4. Meningkatkan peran nyata Fakultas kepada masyarakat melalui penerapan Tridarma
+Perguruan Tinggi secara khusus di bidang Informatika dan Teknik Elektro</p></p>
+
+  <p>Saat ini Fakultas FITE memiliki 3 Program Studi Yaitu :</p>
+
+  <p><b>
+    1. Sarjana/Strata 1 (S1) Teknik Elektro
+  </p></b>
+      <p style="text-align: justify;">Program Studi Teknik Elektro berupaya untuk meningkatkan layanan yang baik kepada mahasiswa serta mampu menjawab keperluan industri melalui lulusan tenaga terdidik dan juga terampil di bidangnya. PSTE berdasarkan analisis SWOT dan diskusi dengan berbagai stakeholder menetapkan visi, misi, tujuan dan sasaran yang akan dilakukan dalam pelaksanaan kurikulum 2019. Visi, misi, tujuan, dan sasaran ini juga dirumuskan sejalan dengan visi, misi, tujuan, dan sasaran Fakultas Informatika dan Teknik Elektro.
+      </p>
+      <p><b>2. Sarjana/Starata 1 (S1) Sistem Informasi</b></p>
+      <p style="text-align: justify;">Jurusan Sistem Informasi Institut Teknologi Del mulai melakukan penerimaan mahasiswa baru pada T.A 2014/2015. Jumlah mahasiswa yang diterima pada Tahun Ajaran tersebut adalah 56 mahasiswa. Dengan dukungan dosen yang ahli dalam sistem informasi, program studi ini dirancang untuk memenuhi kebutuhan terhadap tenaga-tenaga muda yang terampil dan profesional, terutama terkait dengan pengembangan, pemanfaatan, dan pengelolaan Sistem Informasi/Teknologi Informasi dalam suatu organisasi. Kurikulum Program Studi Sistem Informasi IT Del mengacu kepada beberapa kurikulum Sarjana Sistem Informasi di Indonesia maupun Internasional, seperti: Program Studi Sarjana Teknologi dan Sistem Informasi ITB, Program Studi Sarjana Sistem Informasi Universitas Indonesia serta mengacu kepada kurikulum ACM (Association for Computing Machinary) for Information System
+
+      </p>
+
+      <p><b>3. Sarjana/Strata 1 (S1) Informatika</b></p>
+      <p style="text-align: justify;">Program Studi S1 Informatika (PSIF) di Institut Teknologi Del (IT Del) memiliki cakupan bidang ilmu (body of knowledge) meliputi area ilmu komputer (Computer Science), rekayasa perangkat lunak (Software Engineering), keamanan siber (Cybersecurity), dan ilmu data (Data Science). Lulusan dari PSIF dipersiapkan untuk dapat memiliki kemampuan analisis persoalan yang terkait bidang computer science dan pengembangan perangkat lunak mulai dari yang sederhana yang sampai yang kompleks ataupun berskala besar. Selain itu, lulusan PSIF juga dipersiapkan memiliki kemampuan untuk merancang dan mengimplementasikan keamanan yang diperlukan pada suatu perangkat lunak. Dan, terakhir, seorang lulusan PSSTI diproyeksikan untuk memiliki kemampuan mengembangkan perangkat lunak yang pintar menggunakan sejumlah teknik kecerdasan buatan dan secara khusus memiliki kemampuan untuk menjadi artificial intelligence engineer.
+
+      </p>
+          </div>
+      <img src="gambar 9.png" alt="" style="margin-top: -11px; margin-left: 10px;">
+        </div>
+            
+      </div>
+</section>
+
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+      <span>Jelajahi Kami lebih di Sosial Media Kami :</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </section>
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+
+       
+        <div style="display: flex;">
+          <!-- Content -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.3673457470372!2d99.14605787457523!3d2.3832151975961144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e00fdad2d7341%3A0xf59ef99c591fe451!2sDel%20Institute%20of%20Technology!5e0!3m2!1sen!2sid!4v1701830034160!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map-container"></iframe>
+
+          <div>
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Contact Us 
+            </h6>
+            <p>
+              Institut Teknologi Del 
+            </p>
+            <p>Jl. Sisimangaraja, Sitoluama</p>
+            <p>Laguboti, Toba Samosir</p>
+            <p>
+              Sumatera Utara, Indonesia
+            </p>
+            <p>Kode Pos : 22381</p>
+            <p>Telp : +62 632 3312234</p>
+            <p>Email : info@del.ac.id</p>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  <div class="text-center p-4" style="background-color: purple">
+    © 2021 Copyright
+  </div>
+  <!-- Copyright -->
+</footer>
+</html>
